@@ -46,7 +46,9 @@ tree test accuracy: 0.658960
 
 ## Summary
 剪枝的目的是為了避免決策樹發生overfitting的情況，當max_depth = 8的時候，做剪枝前後的準確度只有些為提升。
+
 但當max_depth ＝10的時候，產生overfitting的機率變高了（深度越深，越容易發生overfitting）。
+
 當max_depth越深的時候，做完剪枝準確度提高的程度會比max_depth值較小的時候還要大！
 
 
